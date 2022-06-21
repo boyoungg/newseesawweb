@@ -1,0 +1,42 @@
+.jqbar
+{
+    position: relative;
+    top: 100px;
+    left: 200px;
+
+    margin: 35px;
+
+}
+.jqbar.vertical
+{
+
+    text-align: center;
+    display: inline-block;
+}
+.jqbar.vertical span
+{
+    padding-top: 30px;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+}
+.jqbar.vertical .bar-percent
+{
+    font-size: 18px;
+    color: rgb(158, 158, 158);
+    position: absolute;
+    height: 20px;
+    margin-bottom: 5px;
+    width: 100%;
+}
+.jqbar.vertical .bar-level-wrapper
+{
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+.jqbar.vertical .bar-level
+{
+    position: absolute;
+}
+
